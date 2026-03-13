@@ -1,0 +1,1674 @@
+[
+  {
+    "scene": "Abyss_01",
+    "gate": "left3"
+  },
+  {
+    "scene": "Abyss_02",
+    "gate": "right1"
+  },
+  {
+    "scene": "Abyss_03",
+    "gate": "top1"
+  },
+  {
+    "scene": "Abyss_03_b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_03_c",
+    "gate": "top1"
+  },
+  {
+    "scene": "Abyss_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_06_Core",
+    "gate": "left3"
+  },
+  {
+    "scene": "Abyss_08",
+    "gate": "right1"
+  },
+  {
+    "scene": "Abyss_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_10",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_12",
+    "gate": "right1"
+  },
+  {
+    "scene": "Abyss_15",
+    "gate": "top1"
+  },
+  {
+    "scene": "Abyss_16",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_17",
+    "gate": "top1"
+  },
+  {
+    "scene": "Abyss_18",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_19",
+    "gate": "right1"
+  },
+  {
+    "scene": "Abyss_20",
+    "gate": "top1"
+  },
+  {
+    "scene": "Abyss_21",
+    "gate": "right1"
+  },
+  {
+    "scene": "Abyss_22",
+    "gate": "left1"
+  },
+  {
+    "scene": "Abyss_Lighthouse_room",
+    "gate": "left1"
+  },
+  {
+    "scene": "Cliffs_01",
+    "gate": "right1"
+  },
+  {
+    "scene": "Cliffs_02",
+    "gate": "left1",
+    "boolTests": [
+      {
+        "name": "hasDreamNail",
+        "value": true
+      }
+    ],
+    "intTests": [
+      {
+        "name": "aladarSlugDefeated",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "scene": "Cliffs_03",
+    "gate": "right1"
+  },
+  {
+    "scene": "Cliffs_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Cliffs_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "Cliffs_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Crossroads_01",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_02",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_03",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_04",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_05",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_06",
+    "gate": "door1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_07",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_08",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_09",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_10",
+    "gate": "right1",
+    "infection": true,
+    "boolTests": [
+      {
+        "name": "falseKnightDefeated",
+        "value": false
+      }
+    ],
+    "hasAlt": true
+  },
+  {
+    "scene": "Crossroads_11_alt",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_12",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_13",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_14",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_15",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_16",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_18",
+    "gate": "right1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_19",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_21",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_22",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Crossroads_25",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_27",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_30",
+    "gate": "left1"
+  },
+  {
+    "scene": "Crossroads_31",
+    "gate": "right1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_33",
+    "gate": "top1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_35",
+    "gate": "right1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_36",
+    "gate": "right1"
+  },
+  {
+    "scene": "Crossroads_37",
+    "gate": "right1"
+  },
+  {
+    "scene": "Crossroads_38",
+    "gate": "right1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_39",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_40",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_42",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_43",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_45",
+    "gate": "left1"
+  },
+  {
+    "scene": "Crossroads_46",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_46b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Crossroads_47",
+    "gate": "right1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_48",
+    "gate": "left1"
+  },
+  {
+    "scene": "Crossroads_49",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_49b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Crossroads_50",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Crossroads_52",
+    "gate": "left1"
+  },
+  {
+    "scene": "Crossroads_ShamanTemple",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_01b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_10",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_14",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_16",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_17",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_26",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_26b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_30",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_31",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_32",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_33",
+    "gate": "top1"
+  },
+  {
+    "scene": "Deepnest_34",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_35",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_36",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_37",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_38",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Deepnest_39",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_40",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_41",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_42",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_43",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_44",
+    "gate": "top1"
+  },
+  {
+    "scene": "Deepnest_45_v02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_01",
+    "gate": "top1"
+  },
+  {
+    "scene": "Deepnest_East_02",
+    "gate": "top1"
+  },
+  {
+    "scene": "Deepnest_East_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_07",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_08",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_East_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_10",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_11",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_12",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_13",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Deepnest_East_14",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_14b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Deepnest_East_15",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_16",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_17",
+    "gate": "left1"
+  },
+  {
+    "scene": "Deepnest_East_18",
+    "gate": "right2"
+  },
+  {
+    "scene": "Deepnest_East_Hornet",
+    "gate": "left1",
+    "boolTests": [
+      {
+        "name": "hornetOutskirtsDefeated",
+        "value": false
+      }
+    ]
+  },
+  {
+    "scene": "Deepnest_Spider_Town",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_01b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_03",
+    "gate": "left1"
+  },
+
+  {
+    "scene": "Fungus1_04",
+    "gate": "left1",
+    "boolTests": [
+      {
+        "name": "hornet1Defeated",
+        "value": false
+      }
+    ]
+  },
+  {
+    "scene": "Fungus1_05",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus1_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_07",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_08",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_10",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_11",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_12",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_13",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_14",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_15",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus1_16_alt",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus1_17",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_19",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_20_v02",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus1_21",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_22",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_23",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_24",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_25",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_26",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_28",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_29",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_30",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_31",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus1_32",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_34",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_35",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_36",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_37",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus1_Slug",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_02",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_05",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_07",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_08",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_10",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_11",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_12",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_13",
+    "gate": "left2"
+  },
+  {
+    "scene": "Fungus2_14",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_15",
+    "gate": "right1",
+    "boolTests": [
+      {
+        "name": "defeatedMantisLords",
+        "value": false
+      }
+    ],
+    "hasAlt": true
+  },
+  {
+    "scene": "Fungus2_17",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_18",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_19",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_20",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_21",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_23",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_25",
+    "gate": "top1"
+  },
+  {
+    "scene": "Fungus2_26",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_28",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_29",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus2_30",
+    "gate": "top1"
+  },
+  {
+    "scene": "Fungus2_31",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_32",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_33",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus2_34",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_08",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_10",
+    "gate": "top1"
+  },
+  {
+    "scene": "Fungus3_11",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_13",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_21",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_22",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_23",
+    "gate": "right1",
+    "boolTests": [
+      {
+        "name": "killedTraitorLord",
+        "value": false
+      },
+      {
+        "name": "hasShadowDash",
+        "value": true
+      }
+    ]
+  },
+  {
+    "scene": "Fungus3_24",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_25",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_25b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_26",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_27",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_28",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_30",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Fungus3_34",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_35",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_39",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_40",
+    "gate": "top1",
+    "boolTests": [
+      {
+        "name": "hasDreamNail",
+        "value": true
+      }
+    ],
+    "intTests": [
+      {
+        "name": "mumCaterpillarDefeated",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "scene": "Fungus3_44",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_47",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_48",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_49",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_50",
+    "gate": "right1"
+  },
+  {
+    "scene": "Fungus3_archive",
+    "gate": "left1"
+  },
+  {
+    "scene": "Fungus3_archive_02",
+    "gate": "top1",
+    "boolTests": [
+      {
+        "name": "defeatedMegaJelly",
+        "value": false
+      }
+    ]
+  },
+  {
+    "scene": "GG_Atrium",
+    "gate": "top1"
+  },
+  {
+    "scene": "GG_Atrium_Roof",
+    "gate": "bot2"
+  },
+  {
+    "scene": "GG_Blue_Room",
+    "gate": "left1"
+  },
+  {
+    "scene": "GG_Land_of_Storms",
+    "gate": "door1"
+  },
+  {
+    "scene": "GG_Lurker",
+    "gate": "left1"
+  },
+  {
+    "scene": "GG_Pipeway",
+    "gate": "left1"
+  },
+  {
+    "scene": "Grimm_Divine",
+    "gate": "left1"
+  },
+  {
+    "scene": "Grimm_Main_Tent",
+    "gate": "left1",
+    "boolTests": [
+      {
+        "name": "metGrimm",
+        "value": true
+      },
+      {
+        "name": "equippedCharm_40",
+        "value": true
+      },
+      {
+        "name": "killedGrimm",
+        "value": false
+      }
+    ],
+    "intTests": [
+      {
+        "name": "flamesCollected",
+        "value": 7
+      },
+      {
+        "name": "grimmChildLevel",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "scene": "GG_Waterways",
+    "gate": "right1"
+  },
+  {
+    "scene": "GG_Workshop",
+    "gate": "left1"
+  },
+  {
+    "scene": "Hive_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Hive_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Hive_03",
+    "gate": "right1"
+  },
+  {
+    "scene": "Hive_03_c",
+    "gate": "left1"
+  },
+  {
+    "scene": "Hive_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Hive_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_03",
+    "gate": "right1"
+  },
+  {
+    "scene": "Mines_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_07",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_10",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_11",
+    "gate": "right1"
+  },
+  {
+    "scene": "Mines_13",
+    "gate": "right1"
+  },
+  {
+    "scene": "Mines_16",
+    "gate": "top1"
+  },
+  {
+    "scene": "Mines_17",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_18",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_19",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_20",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_23",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_24",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_25",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_28",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_29",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_30",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_31",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_32",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Mines_33",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Mines_34",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Mines_35",
+    "gate": "left1"
+  },
+  {
+    "scene": "Mines_36",
+    "gate": "right1"
+  },
+  {
+    "scene": "Mines_37",
+    "gate": "top1"
+  },
+  {
+    "scene": "RestingGrounds_02",
+    "gate": "left1",
+    "boolTests": [
+      {
+        "name": "hasDreamNail",
+        "value": true
+      }
+    ],
+    "intTests": [
+      {
+        "name": "xeroDefeated",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "scene": "RestingGrounds_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "RestingGrounds_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "RestingGrounds_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "RestingGrounds_07",
+    "gate": "right1"
+  },
+  {
+    "scene": "RestingGrounds_08",
+    "gate": "left1"
+  },
+  {
+    "scene": "RestingGrounds_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "RestingGrounds_10",
+    "gate": "top1"
+  },
+  {
+    "scene": "RestingGrounds_12",
+    "gate": "bot1"
+  },
+  {
+    "scene": "RestingGrounds_17",
+    "gate": "right1"
+  },
+  {
+    "scene": "Room_Bretta",
+    "gate": "right1"
+  },
+  {
+    "scene": "Room_Bretta_Basement",
+    "gate": "top1"
+  },
+  {
+    "scene": "Room_Charm_Shop",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Colosseum_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Colosseum_02",
+    "gate": "top1"
+  },
+  {
+    "scene": "Room_Colosseum_Bronze",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Colosseum_Gold",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Colosseum_Silver",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Colosseum_Spectate",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Room_Final_Boss_Atrium",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Final_Boss_Core",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_GG_Shortcut",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Fungus_Shaman",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Jinn",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Mansion",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_mapper",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Mask_Maker",
+    "gate": "right1"
+  },
+  {
+    "scene": "Room_Mender_House",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_nailmaster",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_nailmaster_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_nailmaster_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_nailsmith",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Ouiji",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Queen",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_ruinhouse",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_shop",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Slug_Shrine",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_Sly_Storeroom",
+    "gate": "top1"
+  },
+  {
+    "scene": "Room_spider_small",
+    "gate": "left1"
+  },
+  {
+    "scene": "Room_temple",
+    "gate": "left1",
+    "infection": true
+  },
+  {
+    "scene": "Room_Town_Stag_Station",
+    "gate": "door_stagExit"
+  },
+  {
+    "scene": "Room_Tram",
+    "gate": "door1"
+  },
+  {
+    "scene": "Room_Tram_RG",
+    "gate": "door1"
+  },
+  {
+    "scene": "Room_Wyrm",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins_Bathhouse",
+    "gate": "door1"
+  },
+  {
+    "scene": "Ruins_Elevator",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins_House_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins_House_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins_House_03",
+    "gate": "left2"
+  },
+  {
+    "scene": "Ruins1_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_02",
+    "gate": "top1"
+  },
+  {
+    "scene": "Ruins1_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_04",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins1_05",
+    "gate": "right2"
+  },
+  {
+    "scene": "Ruins1_05b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_05c",
+    "gate": "left2"
+  },
+  {
+    "scene": "Ruins1_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_09",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_17",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins1_18",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_23",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_24",
+    "gate": "right1",
+    "boolTests": [
+      {
+        "name": "mageLordDefeated",
+        "value": false
+      }
+    ],
+    "hasAlt": true
+  },
+  {
+    "scene": "Ruins1_25",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_27",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_28",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_29",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_30",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_31",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins1_32",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins1_31b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins2_01",
+    "gate": "left2"
+  },
+  {
+    "scene": "Ruins2_01_b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_03",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Ruins2_03b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_06",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_07",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_08",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_09",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Ruins2_10",
+    "gate": "left1"
+  },
+  {
+    "scene": "Ruins2_10b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins2_11",
+    "gate": "right1",
+    "boolTests": [
+      {
+        "name": "collectorDefeated",
+        "value": false
+      }
+    ]
+  },
+  {
+    "scene": "Ruins2_11_b",
+    "gate": "right1"
+  },
+  {
+    "scene": "Ruins2_Watcher_Room",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Town",
+    "gate": "right1",
+    "infection": true
+  },
+  {
+    "scene": "Waterways_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "Waterways_02",
+    "gate": "top2"
+  },
+  {
+    "scene": "Waterways_03",
+    "gate": "left1"
+  },
+  {
+    "scene": "Waterways_04",
+    "gate": "left1"
+  },
+  {
+    "scene": "Waterways_04b",
+    "gate": "left1"
+  },
+  {
+    "scene": "Waterways_05",
+    "gate": "bot1",
+    "boolTests": [
+      {
+        "name": "defeatedDungDefender",
+        "value": false
+      }
+    ]
+  },
+  {
+    "scene": "Waterways_06",
+    "gate": "right1"
+  },
+  {
+    "scene": "Waterways_07",
+    "gate": "left1"
+  },
+  {
+    "scene": "Waterways_08",
+    "gate": "top1"
+  },
+  {
+    "scene": "Waterways_09",
+    "gate": "right1"
+  },
+  {
+    "scene": "Waterways_12",
+    "gate": "right1",
+    "boolTests": [
+      {
+        "name": "flukeMotherDefeated",
+        "value": false
+      }
+    ]
+  },
+  {
+    "scene": "Waterways_13",
+    "gate": "left1"
+  },
+  {
+    "scene": "Waterways_14",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Waterways_15",
+    "gate": "top1"
+  },
+  {
+    "scene": "White_Palace_01",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_02",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_03_hub",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_04",
+    "gate": "right2"
+  },
+  {
+    "scene": "White_Palace_05",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_06",
+    "gate": "bot1"
+  },
+  {
+    "scene": "White_Palace_07",
+    "gate": "top1"
+  },
+  {
+    "scene": "White_Palace_08",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_09",
+    "gate": "right1"
+  },
+  {
+    "scene": "White_Palace_11",
+    "gate": "door2"
+  },
+  {
+    "scene": "White_Palace_12",
+    "gate": "right1"
+  },
+  {
+    "scene": "White_Palace_13",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_14",
+    "gate": "right1"
+  },
+  {
+    "scene": "White_Palace_15",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_16",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_17",
+    "gate": "right1"
+  },
+  {
+    "scene": "White_Palace_18",
+    "gate": "right1"
+  },
+  {
+    "scene": "White_Palace_19",
+    "gate": "left1"
+  },
+  {
+    "scene": "White_Palace_20",
+    "gate": "bot1"
+  },
+  {
+    "scene": "Tutorial_01",
+    "gate": "top1"
+  }
+]
