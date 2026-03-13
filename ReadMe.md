@@ -8,7 +8,7 @@ Several examples of these methods exist in the source code for this mod.
 - The **ForEveryScene** method will load a predefined sequence of nearly every vanilla scene. This list currently does not include dream bosses (including NKG and Radiance), dream plats, Shrine of Believers rooms, dreamers, or godhome arenas, but these could potentially be added in the future. Cinematics and other non-gameplay scenes are not planned.
 - The **ForSpecificScenes** method is capable of loading a custom list of scenes which you provide. This method is intended to be used to load scenes that are added by other mods, though the scenes do need to exist for this to work (the mod is installed, you are in a plando save file, etc).
 
-# Parameters
+## Parameters
 - **ForEveryScene** is a lengthy process and requires a KeyCode killswitch, which will halt the loads when held down
 - **ForSpecificScenes** takes a (string, string) array which includes the scene name and the gate from which the knight will enter.
 - Both methods take an *ESU_Params* struct for more complex parameter info:
