@@ -10,6 +10,7 @@ namespace EverySceneUtil {
         public BoolTest[] boolTests = [];
         public IntTest[] intTests = [];
         public bool hasAlt = false;
+        public bool isDream = false;
     }
 
     internal class BoolTest {

@@ -526,6 +526,70 @@
     "gate": "left1"
   },
   {
+    "scene": "Dream_01_False_Knight",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_02_Mage_Lord",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_03_Infected_Knight",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_04_White_Defender",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Abyss",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Backer_Shrine",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Final_Boss",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Guardian_Hegemol",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Guardian_Lurien",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Guardian_Monomon",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Mighty_Zote",
+    "gate": "door1",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Nailcollection",
+    "gate": "door_dreamReturn",
+    "isDream": true
+  },
+  {
+    "scene": "Dream_Room_Believer_Shrine",
+    "gate": "left1"
+  },
+  {
     "scene": "Fungus1_01",
     "gate": "left1"
   },
@@ -899,7 +963,8 @@
   },
   {
     "scene": "Fungus3_39",
-    "gate": "left1"
+    "gate": "left1",
+    "infection": true
   },
   {
     "scene": "Fungus3_40",
@@ -976,6 +1041,14 @@
     "gate": "left1"
   },
   {
+    "scene": "GG_Waterways",
+    "gate": "right1"
+  },
+  {
+    "scene": "GG_Workshop",
+    "gate": "left1"
+  },
+  {
     "scene": "Grimm_Divine",
     "gate": "left1"
   },
@@ -1008,12 +1081,9 @@
     ]
   },
   {
-    "scene": "GG_Waterways",
-    "gate": "right1"
-  },
-  {
-    "scene": "GG_Workshop",
-    "gate": "left1"
+    "scene": "Grimm_Nightmare",
+    "gate": "door1",
+    "isDream": true
   },
   {
     "scene": "Hive_01",

@@ -21,7 +21,7 @@ namespace EverySceneUtil {
         /// GetVersion
         /// </summary>
         /// <returns></returns>
-        public override string GetVersion() => "1.0.0.0";
+        public override string GetVersion() => "1.1.0.0";
 
         private static bool isLoading = false;
         private static KeyCode killswitch;
@@ -69,7 +69,7 @@ namespace EverySceneUtil {
         /// <returns></returns>
         public static async Task ForSpecificScenes((string scene, string gate)[] sceneTransitions, ESU_Params parameters) {
             foreach((string scene, string gate) in sceneTransitions) {
-                await ProcessScene(scene, gate, parameters, "", false);
+                await ProcessScene(scene, gate, parameters, "", false, false);
             }
         }
 
@@ -131,7 +131,7 @@ namespace EverySceneUtil {
                         pd.SetInt(test.name, test.value);
                         newAddMsg += $", {test.name} = {test.value}";
                     }
-                    await ProcessScene(data.scene, data.gate, parameters, additionalMessage + newAddMsg, hasKillswitch);
+                    await ProcessScene(data.scene, data.gate, parameters, additionalMessage + newAddMsg, hasKillswitch, data.isDream);
                 }
                 if(parameters.AdditionalScenes == AdditionalSceneOptions.WithAndWithoutExtras || data.hasAlt) {
                     string newAddMsg = "";
@@ -143,10 +143,10 @@ namespace EverySceneUtil {
                         pd.SetInt(test.name, 0);
                         newAddMsg += $", {test.name} = 0";
                     }
-                    await ProcessScene(data.scene, data.gate, parameters, additionalMessage + newAddMsg, hasKillswitch);
+                    await ProcessScene(data.scene, data.gate, parameters, additionalMessage + newAddMsg, hasKillswitch, data.isDream);
                 }
                 if(parameters.AdditionalScenes == AdditionalSceneOptions.Ignore) {
-                    await ProcessScene(data.scene, data.gate, parameters, additionalMessage, hasKillswitch);
+                    await ProcessScene(data.scene, data.gate, parameters, additionalMessage, hasKillswitch, data.isDream);
                 }
             }
             catch(InterruptEveryScene) {
@@ -168,7 +168,7 @@ namespace EverySceneUtil {
             }
         }
 
-        private static async Task ProcessScene(string scene, string gate, ESU_Params parameters, string additionalMessage, bool hasKillswitch) {
+        private static async Task ProcessScene(string scene, string gate, ESU_Params parameters, string additionalMessage, bool hasKillswitch, bool isDream) {
             if(hasKillswitch && Input.GetKey(killswitch))
                 throw new InterruptEveryScene();
             if(parameters.LogSceneName)
@@ -180,9 +180,9 @@ namespace EverySceneUtil {
                 EntryGateName = gate,
                 HeroLeaveDirection = GlobalEnums.GatePosition.unknown,
                 EntryDelay = 0,
-                WaitForSceneTransitionCameraFade = true,
-                PreventCameraFadeOut = false,
-                Visualization = GameManager.SceneLoadVisualizations.Default,
+                WaitForSceneTransitionCameraFade = !isDream,
+                PreventCameraFadeOut = isDream,
+                Visualization = isDream ? GameManager.SceneLoadVisualizations.Dream : GameManager.SceneLoadVisualizations.Default,
                 AlwaysUnloadUnusedAssets = false,
                 forceWaitFetch = false
             });
@@ -192,6 +192,8 @@ namespace EverySceneUtil {
                 await Task.Yield();
             } while(HeroController.instance.cState.transitioning);
             parameters.OnLoad?.Invoke();
+            if(isDream)
+                await Task.Delay(1500);
         }
     }
 
