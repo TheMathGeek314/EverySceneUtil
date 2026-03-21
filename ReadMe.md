@@ -5,7 +5,7 @@ This is a developer tool mod which can load almost every scene in the game and r
 Several examples of these methods exist in the source code for this mod.
 
 ## Methods
-- The **ForEveryScene** method will load a predefined sequence of nearly every vanilla scene. This list currently does not include godhome arenas, but these could potentially be added in the future. Cinematics and other non-gameplay scenes are not planned.
+- The **ForEveryScene** method will load a predefined sequence of nearly every vanilla scene. Cinematics and other non-gameplay scenes are not included or planned.
 - The **ForSpecificScenes** method is capable of loading a custom list of scenes which you provide. This method is intended to be used to load scenes that are added by other mods, though the scenes do need to exist for this to work (the mod is installed, you are in a plando save file, etc).
 
 ## Parameters
@@ -29,4 +29,4 @@ Most data altered by parameters should be reverted to its original state when sc
 
 For Ruins2_03 (Watcher Knights) and Mines_18 (Crystal Guardian), the AdditionalScenes parameter is treated as Ignore because these rooms use a more complicated system that a simple PlayerData bool to determine how the secondary scene should load.
 
-Some dream scenes may cause invisibility, but it will fix itself eventually. Dream_Abyss also induces a dark vignette, which will not fix itself.
+Some dream scenes may cause invisibility, but it will fix itself eventually.

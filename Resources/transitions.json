@@ -1738,6 +1738,326 @@
     "gate": "bot1"
   },
   {
+    "scene": "GG_Broken_Vessel",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Brooding_Mawlek",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Brooding_Mawlek_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Collector",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Collector_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Crystal_Guardian",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Crystal_Guardian_2",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Dung_Defender",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Engine",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Engine_Prime",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Engine_Root",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Failed_Champion",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_False_Knight",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Flukemarm",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Galien",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Gorb",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Gorb_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Hu",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Markoth",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Markoth_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Marmu",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Marmu_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_No_Eyes",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_No_Eyes_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Xero",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Ghost_Xero_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_God_Tamer",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Grey_Prince_Zote",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Grimm",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Grimm_Nightmare",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Gruz_Mother",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Gruz_Mother_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Hive_Knight",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Hollow_Knight",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Hornet_1",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Hornet_2",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Lost_Kin",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Mage_Knight",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Mage_Knight_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Mantis_Lords",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Mantis_Lords_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Mega_Moss_Charger",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Mighty_Zote",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Nailmasters",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Nosk",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Nosk_Hornet",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Nosk_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Oblobbles",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Painter",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Radiance",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Sly",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Soul_Master",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Soul_Tyrant",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Spa",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Traitor_Lord",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Unlock_Wastes",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Unn",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Uumuu",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Uumuu_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Vengefly",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Vengefly_V",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Watcher_Knights",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_White_Defender",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
+    "scene": "GG_Wyrm",
+    "gate": "door_dreamEnter",
+    "isDream": true
+  },
+  {
     "scene": "Tutorial_01",
     "gate": "top1"
   }

@@ -21,7 +21,7 @@ namespace EverySceneUtil {
         /// GetVersion
         /// </summary>
         /// <returns></returns>
-        public override string GetVersion() => "1.1.0.0";
+        public override string GetVersion() => "1.2.0.0";
 
         private static bool isLoading = false;
         private static KeyCode killswitch;
@@ -193,7 +193,11 @@ namespace EverySceneUtil {
             } while(HeroController.instance.cState.transitioning);
             parameters.OnLoad?.Invoke();
             if(isDream)
-                await Task.Delay(1500);
+                await Task.Delay(1000);
+            if(scene == "Dream_Abyss")
+                HeroController.instance.gameObject.transform.Find("Extra Darkness").gameObject.SetActive(false);
+            if(scene == "Tutorial_01")
+                HeroController.instance.gameObject.LocateMyFSM("Roar Lock").SetState("Cancel Effects");
         }
     }
 
